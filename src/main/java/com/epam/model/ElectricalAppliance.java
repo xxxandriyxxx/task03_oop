@@ -33,7 +33,7 @@ public abstract class ElectricalAppliance {
     }
 
     public void setConnected(boolean connected) {
-        isConnected = connected;
+        this.isConnected = connected;
     }
 
     @Override
