@@ -1,10 +1,10 @@
 package com.epam.model;
 
-public class TV extends ElectricalAppliance {
+public class TVset extends ElectricalAppliance {
 
     private int screenDiagonal;
 
-    public TV(String name, int power, boolean isConnected, int screenDiagonal) {
+    public TVset(String name, int power, boolean isConnected, int screenDiagonal) {
         super(name, power, isConnected);
         this.screenDiagonal = screenDiagonal;
     }
@@ -19,7 +19,7 @@ public class TV extends ElectricalAppliance {
 
     @Override
     public String toString() {
-        return "TV{" +
+        return "TVset{" +
                 "screenDiagonal=" + screenDiagonal +
                 "} " + super.toString();
     }
