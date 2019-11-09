@@ -4,8 +4,9 @@ public class TV extends ElectricalAppliance {
 
     private int screenDiagonal;
 
-    public TV(String name, int power, boolean isConnected) {
+    public TV(String name, int power, boolean isConnected, int screenDiagonal) {
         super(name, power, isConnected);
+        this.screenDiagonal = screenDiagonal;
     }
 
     public int getScreenDiagonal() {
