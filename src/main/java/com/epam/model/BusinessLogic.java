@@ -23,7 +23,7 @@ public class BusinessLogic implements Model {
     }
 
     @Override
-    public List<ElectricalAppliance> getListSortedByPower() {
+    public List<ElectricalAppliance> getSortedByPower() {
         List<ElectricalAppliance> sortedList = new ArrayList<>();
         sortedList.addAll(domain.getApplianceList());
         sortedList.sort(Comparator.comparing(ElectricalAppliance::getPower));

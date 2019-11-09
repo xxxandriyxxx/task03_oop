@@ -6,9 +6,9 @@ public interface Model {
 
     List<ElectricalAppliance> getApplianceList();
 
-    List<ElectricalAppliance> getConnectionPower();
+    double getConnectionPower();
 
-    List<ElectricalAppliance> getSortedList();
+    List<ElectricalAppliance> getSortedByPower();
 
     List<ElectricalAppliance> getTVsets();
 
