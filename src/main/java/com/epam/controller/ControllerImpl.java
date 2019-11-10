@@ -20,7 +20,7 @@ public class ControllerImpl implements Controller {
     }
 
     @Override
-    public double getConnectionPower() {
+    public int getConnectionPower() {
         return model.getConnectionPower();
     }
 

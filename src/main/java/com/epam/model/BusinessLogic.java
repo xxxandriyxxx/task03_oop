@@ -18,7 +18,7 @@ public class BusinessLogic implements Model {
     }
 
     @Override
-    public double getConnectionPower() {
+    public int getConnectionPower() {
         return domain.getConnectionPower();
     }
 

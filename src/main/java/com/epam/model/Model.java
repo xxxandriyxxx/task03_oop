@@ -6,7 +6,7 @@ public interface Model {
 
     List<ElectricalAppliance> getApplianceList();
 
-    double getConnectionPower();
+    int getConnectionPower();
 
     List<ElectricalAppliance> getSortedByPower();
 

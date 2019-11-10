@@ -6,7 +6,7 @@ public interface Controller {
 
     List<ElectricalAppliance> getApplianceList();
 
-    double getConnectionPower();
+    int getConnectionPower();
 
     List<ElectricalAppliance> getSortedByPower();
 
