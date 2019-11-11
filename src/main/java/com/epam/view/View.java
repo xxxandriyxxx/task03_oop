@@ -59,7 +59,7 @@ public class View {
     }
 
     private void outputMenu() {
-        System.out.println("\nMENU:");
+        System.out.println("\n==================== MENU ====================");
         for (String str : menu.values()) {
             System.out.println(str);
         }
@@ -69,6 +69,7 @@ public class View {
         String keyMenu;
         do {
             outputMenu();
+            System.out.println("----------------------------------------------");
             System.out.println("Enter the menu point:");
             keyMenu = input.nextLine().toUpperCase();
             try {

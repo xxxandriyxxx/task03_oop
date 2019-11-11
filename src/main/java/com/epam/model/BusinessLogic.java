@@ -6,7 +6,7 @@ import java.util.List;
 
 public class BusinessLogic implements Model {
 
-    Domain domain;
+    private Domain domain;
 
     public BusinessLogic() {
         domain = new Domain();
